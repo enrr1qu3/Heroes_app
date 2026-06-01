@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss()],
+  base: "/Heroes_app/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
